@@ -1,20 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
   <title>The Maze Game </title>
 </head>
   <body>  
-    <h2> The Amazing Maze Game </h2>
-    <p>  <p> <hr>
-        <h2> The Amazing Maze Game </h2>
-    <p>  <p> <hr>
-        <h2> The Amazing Maze Game </h2>
-    <p>  <p> <hr>
     
-    
-  
-  </body>
+      
+      <h1><a href="https://UnknownTitan.github.io/The-Maze/">The-Maze</a></h1>
+      
+      <h1 id="the-maze">The Maze</h1>
+
+<p>The Maze is a 3D Maze game that uses ray casting to render a 2D map into a 3D navigable world!</p>
+
+<p>The Maze was written was written in C ussing SDL2 library. Deveploment was performed using Ubuntu 14.04 LTS - gcc (Ubuntu 4.8.4-2ubuntu1~14.04) 4.8.4</p>
+
+<h3 id="about-sdl2">About SDL2<a class="anchorjs-link " href="#about-sdl2" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
+
+<p>Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D. It is used by video playback software, emulators, and popular games including Valve’s award winning catalog and many Humble Bundle games.</p>
+
+<h2 id="instalation-d">Instalation d<a class="anchorjs-link " href="#instalation-d" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git clone https:i//github.com/robby10Z/The-Maze.git
+</code></pre></div></div>
+<h2 id="usage">Usage<a class="anchorjs-link " href="#usage" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+<ul>
+  <li>Execute ./maze or type make run</li>
+  <li>Use up and down arrow keys to move forward and backward (keys w and s serve the same function)</li>
+  <li>Use right and left arrow keys to turn the camera arround (keys d and a serve the same function)</li>
+</ul>
+
+<h2 id="compilation">Compilation<a class="anchorjs-link " href="#compilation" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>gcc <span class="nt">-Wall</span> <span class="nt">-Werror</span> <span class="nt">-Wextra</span> <span class="nt">-pedantic</span> ./src/<span class="k">*</span>.c <span class="nt">-lm</span> <span class="nt">-o</span> maze <span class="sb">`</span>sdl2-config <span class="nt">--cflags</span><span class="sb">`</span> <span class="sb">`</span>sdl2-config <span class="nt">--libs</span><span class="sb">`</span><span class="p">;</span>
+</code></pre></div></div>
 
 
-
+</body>
 </html>
